@@ -10,7 +10,7 @@ public class Ejercicio13 {
         System.out.println("La tercera expresión es: "
                 + (10 / 2 + 3 * 5 == 19 && true));
         System.out.println("La cuarta expresión es: "
-                + (boolean b = false; b = !b || 7 % 2 == 1));
-        
+                + (boolean b = false : b = !b || 7 % 2 == 1));
+    
     }
 }
