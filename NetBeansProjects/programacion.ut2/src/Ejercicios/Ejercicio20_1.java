@@ -16,5 +16,6 @@ public class Ejercicio20_1 {
         case 9, 10 -> "Sobresaliente";
         default -> "Error";
     };
+    System.out.println("La nota es: " + notaExamen);
     }
 }
